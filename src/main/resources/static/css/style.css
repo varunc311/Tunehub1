@@ -1,0 +1,142 @@
+@charset "ISO-8859-1";
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 85vh;
+	margin: 5px; 
+}
+
+.login-container{
+	width: 300px;
+	padding: 30px;
+	border: 1px solid #ccc;
+	
+}
+
+.login-container h2{
+	margin-bottom: 50px;
+}
+
+
+.login-container ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+.login-container a{
+	text-decoration: black;
+	background-color: rgb(152, 90, 39);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 6px;
+	text-align:center;
+	margin: 20px 0;
+	line-height: 40px;
+	letter-spacing: 3px;
+    box-shadow: 0 0 10px #8f3f30;
+    flex: 78px;
+}
+
+.loginpage-container{
+	width: 250px;
+	padding: 30px;
+	border: 1px solid #ccc;
+    
+}
+.loginpage-container h1{
+	margin-bottom: 50px;
+}
+.loginpage-container ul{
+	list-style-type: none;
+	padding: 0;
+}
+.loginpage-container a{
+	text-decoration: black;
+	background-color: rgb(152, 90, 39);
+	color: #000000;
+	padding: 10px 20px;
+	border-radius: 6px;
+	margin: 20px 0;
+	line-height: 40px;
+	letter-spacing: 3px;
+    box-shadow: 0 0 10px #8f3f30;
+}
+
+
+.registration-container h1{
+	margin-bottom: 50px;
+	text-align: center;
+}
+.registration-container{
+	width: 350px;
+	height:400px;
+	padding: 30px;
+	border: 1px solid #ccc;
+ 
+}
+.registration-container ul{
+	list-style-type: none;
+	padding: 0;
+}
+.registration-container label{
+	text-decoration: black;
+	background-color: #dac8c0;
+	color: #000000;
+	padding: 5px 20px;
+	border-radius: 6px;
+	line-height: 30px;
+	letter-spacing: 1px;
+  
+}
+
+.registration-container body{
+		display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 150vh;
+	margin: 5px;
+}
+.registration-container input {
+	text-align: bold;
+	
+}
+
+
+.admin-container body{
+		display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 150vh;
+	margin: 5px;
+}
+.admin-container{
+	width: 350px;
+	height:400px;
+	padding: 30px;
+	border: 1px solid #ccc;
+
+}
+.admin-container ul{
+	list-style-type: none;
+	padding: 0;
+}
+.admin-container ul{
+	text-decoration: black;
+	background-color: white;
+	color: #000000;
+	padding: 5px 10px;
+	border-radius: 6px;
+	text-align:center;
+	line-height: 40px;
+	letter-spacing: 1px;
+   
+}
+.admin-container h1{
+	margin-bottom: 50px;
+	text-align: center;
+}
+.admin-container ul:hover{
+	background-color: #b6faf8;
+}
+
